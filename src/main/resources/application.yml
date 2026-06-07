@@ -8,7 +8,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/smart_inventory?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
-    password: Dharani@2005
+    password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
