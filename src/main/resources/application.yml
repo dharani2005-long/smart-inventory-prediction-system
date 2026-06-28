@@ -6,9 +6,9 @@ spring:
     name: smart-inventory-prediction-system
 
   datasource:
-    url: jdbc:mysql://localhost:3306/smart_inventory?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
-    username: ${DB_USERNAME}
-    password: ${DB_PASSWORD}
+    url: jdbc:mysql://2DzjDFTfKzLkVPs.root:dwOXF6WWrkluJUNw@gateway01.ap-southeast-1.prod.aws.tidbcloud.com:4000/sys?sslMode=VERIFY_IDENTITY
+    username: 2DzjDFTfKzLkVPs.root
+    password: dwOXF6WWrkluJUNw
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
