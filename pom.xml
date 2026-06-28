@@ -14,6 +14,7 @@
     <groupId>com.smartinventory</groupId>
     <artifactId>smart-inventory-prediction-system</artifactId>
     <version>1.0.0</version>
+    <packaging>jar</packaging>
     <name>Smart Inventory Prediction System</name>
     <description>Inventory management system with smart demand forecasting</description>
 
